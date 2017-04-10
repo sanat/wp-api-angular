@@ -61,7 +61,7 @@ export class AppModule { }
 
 ## API
 
-Every method return an Obervable. If you want to get a Promise you will need to add the rxjs `toPromise` operator:
+Every method returns an Observable. If you want to get a Promise you will need to add the rxjs `toPromise` operator:
 
 ```js
 import 'rxjs/add/operator/toPromise';
@@ -80,7 +80,7 @@ class Test {
 
 ### RequestOptionsArgs
 
-Every request can have an optional [`RequestOptionsArgs`](https://angular.io/docs/ts/latest/api/http/index/RequestOptionsArgs-interface.html) object.
+Every request can have an options [`RequestOptionsArgs`](https://angular.io/docs/ts/latest/api/http/index/RequestOptionsArgs-interface.html) object.
 
 ```js
 class RequestOptionsArgs {
